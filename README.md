@@ -1,5 +1,4 @@
 # Portfolio — Muhamad Jufri Ramadhan
-Website portofolio single-page pribadi. Dibangun dengan HTML, CSS, dan JavaScript murni — tanpa framework.
 ## Struktur Folder
 ```
 portfolio-mjr/
