@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio Muhamad Jufri Ramadhan — Web Developer" />
+  <title>Muhamad Jufri Ramadhan — Web Developer</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== CUSTOM CURSOR ===== -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav id="navbar">
+    <a href="#home" class="nav-logo">MJR<span>.</span></a>
+    <button class="hamburger" id="hamburger" aria-label="Buka Menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#tools">Tools</a></li>
+      <li><a href="#contact" class="nav-cta">Hire Me</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg-text" aria-hidden="true">DEVELOPER</div>
+    <div class="hero-line" aria-hidden="true"></div>
+    <div class="hero-num" aria-hidden="true">Web Developer &amp; Frontend Engineer</div>
+
+    <div class="hero-badge">
+      <span class="dot"></span>
+      Available for freelance projects
+    </div>
+
+    <h1>
+      Muhamad<br>
+      <em>Jufri</em><br>
+      Ramadhan<span class="accent-dot">.</span>
+    </h1>
+
+    <div class="hero-sub">
+      <p class="hero-tagline">
+        <strong>Web Developer</strong> yang membangun pengalaman digital yang fungsional,
+        estetis, dan berdampak. Dari konsep hingga kode clean, scalable,
+        dan penuh perhatian pada detail.
+      </p>
+      <a href="#projects" class="hero-scroll">
+        Lihat Proyek
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+          <path d="M8 3v10M3 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about">
+    <div class="section-label">About Me</div>
+    <h2 class="section-title reveal">Kode adalah<br>bahasa saya.</h2>
+
+    <div class="about-grid">
+      <div class="about-text reveal reveal-delay-1">
+        <p>
+          Haii Semua Saya <strong>Muhamad Jufri Ramadhan</strong>, seorang Web Developer
+          yang bersemangat dalam menciptakan solusi digital yang tidak hanya bekerja
+          dengan baik tetapi juga terlihat dan terasa luar biasa.
+        </p>
+        <p>
+          Dengan keahlian di sisi <strong>frontend</strong>, saya
+          menggabungkan logika pemrograman yang solid dengan kepekaan desain yang kuat.
+          Setiap baris kode yang saya tulis memiliki tujuan.
+        </p>
+        <p>
+          Saya percaya bahwa <strong>teknologi terbaik adalah yang tidak terlihat</strong>
+          ia cukup intuitif sehingga pengguna hanya merasakan pengalaman yang mulus,
+          bukan kerumitannya.
+        </p>
+      </div>
+
+      <div class="stats-grid reveal reveal-delay-2">
+        <div class="stat-card">
+          <div class="stat-num" data-target="5"><span>0</span></div>
+          <div class="stat-label">Proyek Selesai</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num" data-target="3"><span>0</span></div>
+          <div class="stat-label">Tahun Pengalaman</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num" data-target="1"><span>0</span></div>
+          <div class="stat-label">Klien Puas</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num" data-target="5"><span>0</span></div>
+          <div class="stat-label">Teknologi Dikuasai</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects">
+    <div class="section-label">Selected Work</div>
+    <h2 class="section-title reveal">Proyek nyata<br>yang saya bangun.</h2>
+
+    <div class="projects-grid-5">
+
+      <!-- Card 1: Article Hub (wide - col 1-2) -->
+      <div class="project-card-5 reveal reveal-delay-1">
+        <div class="proj5-arrow" aria-hidden="true">
+          <svg width="13" height="13" viewBox="0 0 14 14" fill="none">
+            <path d="M2 12L12 2M12 2H5M12 2v7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="proj5-thumb">
+          <img src="assets/images/project-article-hub.png" alt="Tampilan Article Hub — agregator berita" loading="lazy" />
+        </div>
+        <div class="proj5-body">
+          <div class="proj5-num">01 / Web App</div>
+          <div class="proj5-name">Article Hub</div>
+          <div class="proj5-client">Proyek Personal — Artikel Berita</div>
+          <p class="proj5-desc">
+            Platform Gibah artikel berbasis web dengan tampilan kartu dark-theme.
+            Fitur pencarian artikel, filter berdasarkan penulis, pengurutan terbaru/terlama,
+            serta integrasi feed dari berbagai sumber berita. UI modern dengan dukungan
+            beberapa artikel dari berbagai kategori.
+          </p>
+          <div class="proj5-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Google News API</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2: Scuba Cat (kolom kanan) -->
+      <div class="project-card-5 reveal reveal-delay-2">
+        <div class="proj5-arrow" aria-hidden="true">
+          <svg width="13" height="13" viewBox="0 0 14 14" fill="none">
+            <path d="M2 12L12 2M12 2H5M12 2v7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="proj5-thumb">
+          <img src="assets/images/project-scuba-cat.png" alt="Tampilan Scuba Cat Detector" loading="lazy" style="object-position: center;" />
+        </div>
+        <div class="proj5-body">
+          <div class="proj5-num">02 / Python App</div>
+          <div class="proj5-name">Scuba Cat Detector</div>
+          <div class="proj5-client">Proyek Belajar Mandiri — Computer Vision</div>
+          <p class="proj5-desc">
+            Aplikasi computer vision berbasis Python yang mendeteksi gestur tangan
+            "scuba cat" secara real-time menggunakan MediaPipe dan OpenCV.
+            Saat gestur terdeteksi, animasi GIF kucing muncul sebagai pop-up.
+          </p>
+          <div class="proj5-tags">
+            <span class="tag">Python</span>
+            <span class="tag">MediaPipe</span>
+            <span class="tag">OpenCV</span>
+            <span class="tag">TensorFlow Lite</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3: My Album (wide - col 1-2, dua portrait) -->
+      <div class="project-card-5 reveal reveal-delay-1">
+        <div class="proj5-arrow" aria-hidden="true">
+          <svg width="13" height="13" viewBox="0 0 14 14" fill="none">
+            <path d="M2 12L12 2M12 2H5M12 2v7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="proj5-thumb portrait-pair">
+          <img src="assets/images/project-musik-home.png" alt="Halaman utama My Album" loading="lazy" />
+          <img src="assets/images/project-musik-profile.png" alt="Halaman profil My Album" loading="lazy" />
+        </div>
+        <div class="proj5-body">
+          <div class="proj5-num">03 / Mobile App</div>
+          <div class="proj5-name">MY ALBUM</div>
+          <div class="proj5-client">Tugas Mobile Programming — Android App</div>
+          <p class="proj5-desc">
+            Aplikasi mobile Android untuk koleksi album musik K-Pop favorit. Menampilkan
+            grid album artis (TWICE, NewJeans, aespa, dll), halaman profil pengguna,
+            fitur lagu favorit, serta toggle dark mode. Dibangun sebagai tugas mata kuliah
+            Mobile Programming.
+          </p>
+          <div class="proj5-tags">
+            <span class="tag">Android</span>
+            <span class="tag">Java</span>
+            <span class="tag">XML</span>
+            <span class="tag">Mobile UI</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4: To-Do List (kolom kanan) -->
+      <div class="project-card-5 reveal reveal-delay-2">
+        <div class="proj5-arrow" aria-hidden="true">
+          <svg width="13" height="13" viewBox="0 0 14 14" fill="none">
+            <path d="M2 12L12 2M12 2H5M12 2v7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="proj5-thumb">
+          <img src="assets/images/project-todolist.png" alt="Tampilan My To-Do List App" loading="lazy" />
+        </div>
+        <div class="proj5-body">
+          <div class="proj5-num">04 / Web App</div>
+          <div class="proj5-name">My To-Do List</div>
+          <div class="proj5-client">Proyek Personal — Produktivitas</div>
+          <p class="proj5-desc">
+            Aplikasi to-do list berbasis web dengan statistik task real-time (total, selesai,
+            pending, progress %), input tugas + due date, filter status, dan dukungan
+            multi-tema (Night, Dracula, Cupcake). Data tersimpan lokal di browser.
+          </p>
+          <div class="proj5-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">LocalStorage</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== TOOLS ===== -->
+  <section id="tools">
+    <div class="section-label">Tech Stack</div>
+    <h2 class="section-title reveal">Alat yang saya<br>gunakan.</h2>
+
+    <div class="tools-wrapper reveal reveal-delay-1">
+      <div class="tools-row">
+
+        <!-- HTML5 -->
+        <div class="tool-pill">
+          <div class="tool-icon" style="background:#FFF3E0;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M4 3l1.5 17L12 22l6.5-2L20 3H4z" fill="#E44D26"/>
+              <path d="M12 20.5V4.5H18.5L17.2 19.2 12 20.5z" fill="#F16529"/>
+              <path d="M9 8h3V6H7l.4 4H9V8zm0 3H7.5l.2 2.2 4.3 1.2V12.4l-2.8-.8-.2-1.5z" fill="#EBEBEB"/>
+              <path d="M12 8v2h2.5l-.3 3-2.2.6v2.2l4.3-1.2.1-1.2.4-4.4H12z" fill="#fff"/>
+            </svg>
+          </div>
+          <div class="tool-info">
+            <div class="tool-name">HTML</div>
+            <div class="tool-level">Markup Language</div>
+            <div class="tool-bar-wrap"><div class="tool-bar" data-width="95"></div></div>
+          </div>
+        </div>
+
+        <!-- CSS3 -->
+        <div class="tool-pill">
+          <div class="tool-icon" style="background:#E3F2FD;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M4 3l1.5 17L12 22l6.5-2L20 3H4z" fill="#1572B6"/>
+              <path d="M12 20.5V4.5H18.5L17.2 19.2 12 20.5z" fill="#33A9DC"/>
+              <path d="M9 11H12V9H7.2l.6 6.5 4.2 1.2v-2l-2.8-.8-.2-2zm.3-3H12V6H7l.3 2.5h2.5z" fill="#EBEBEB"/>
+              <path d="M12 11v2h2.2l-.2 2-2 .6v2l4.2-1.2.1-1.4.5-5.2H12zm.5-5V8H17l-.3-2h-4.2z" fill="#fff"/>
+            </svg>
+          </div>
+          <div class="tool-info">
+            <div class="tool-name">CSS</div>
+            <div class="tool-level">Styling &amp; Layout</div>
+            <div class="tool-bar-wrap"><div class="tool-bar" data-width="90"></div></div>
+          </div>
+        </div>
+
+        <!-- JavaScript -->
+        <div class="tool-pill">
+          <div class="tool-icon" style="background:#FFFDE7;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <rect x="3" y="3" width="18" height="18" rx="2" fill="#F7DF1E"/>
+              <path d="M7 17.5c.4.7 1 1.1 2 1.1 1.1 0 1.7-.5 1.7-1.3 0-.9-.7-1.2-1.8-1.7l-.6-.3c-1.8-.8-3-1.7-3-3.8 0-1.8 1.4-3.1 3.5-3.1 1.5 0 2.6.5 3.4 1.8l-1.8 1.2c-.4-.7-.8-1-1.5-1-.7 0-1.1.4-1.1 1 0 .7.4 1 1.4 1.4l.6.3c2.1.9 3.2 1.8 3.2 3.9 0 2.2-1.7 3.3-4.1 3.3-2.3 0-3.7-1.1-4.4-2.5l1.9-1.2zm8.1.2c.5.8 1.1 1.3 2.1 1.3 1.1 0 1.7-.5 1.7-1.3V8.5h2.3V18c0 2.2-1.3 3.2-3.2 3.2-1.7 0-2.8-.9-3.3-1.9l2.1-1.3-.7-.3z" fill="#333"/>
+            </svg>
+          </div>
+          <div class="tool-info">
+            <div class="tool-name">JavaScript</div>
+            <div class="tool-level">Frontend Logic</div>
+            <div class="tool-bar-wrap"><div class="tool-bar" data-width="88"></div></div>
+          </div>
+        </div>
+
+        <!-- PHP -->
+        <div class="tool-pill">
+          <div class="tool-icon" style="background:#EDE7F6;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M12 2C6.5 2 2 6.5 2 12c0 3.8 2.1 7.1 5.2 8.9L2 22l5.4-.8C8.8 21.7 10.4 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2z" fill="#7B3FBE"/>
+              <path d="M7 14.5l5.5-8.5-1.2 5.2h3.2L9 19l1.8-4.5H7z" fill="#fff"/>
+            </svg>
+          </div>
+          <div class="tool-info">
+            <div class="tool-name">PHP</div>
+            <div class="tool-level">Backend Development</div>
+            <div class="tool-bar-wrap"><div class="tool-bar" data-width="85"></div></div>
+          </div>
+        </div>
+
+        <!-- MySQL -->
+        <div class="tool-pill">
+          <div class="tool-icon" style="background:#E8F5E9;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <ellipse cx="12" cy="7" rx="8" ry="3.5" fill="#00758F"/>
+              <path d="M4 7v4c0 2 3.6 3.5 8 3.5s8-1.6 8-3.5V7" fill="#00758F"/>
+              <path d="M4 11v4c0 2 3.6 3.5 8 3.5s8-1.6 8-3.5v-4" fill="#F29111" opacity=".85"/>
+              <ellipse cx="12" cy="7" rx="8" ry="3.5" fill="none" stroke="#fff" stroke-width=".5" opacity=".4"/>
+            </svg>
+          </div>
+          <div class="tool-info">
+            <div class="tool-name">MySQL</div>
+            <div class="tool-level">Database Management</div>
+            <div class="tool-bar-wrap"><div class="tool-bar" data-width="82"></div></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact">
+    <div class="contact-bg" aria-hidden="true"></div>
+    <div class="section-label">Sini Yu Kerja Sama</div>
+    <h2 class="section-title reveal">Mari bekerja<br>sama.</h2>
+
+    <div class="contact-body">
+      <div class="contact-email-block reveal reveal-delay-1">
+        <p>
+          Punya proyek menarik? Saya selalu terbuka untuk diskusi tentang peluang baru,
+          kolaborasi kreatif, atau sekadar ngobrol soal teknologi.
+          Jangan ragu untuk menghubungi saya.
+        </p>
+        <a href="mailto:jufriramadhan@email.com" class="email-link">
+          <svg width="22" height="22" viewBox="0 0 22 22" fill="none" aria-hidden="true">
+            <path d="M3 4h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1z" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M2 5.5l9 6.5 9-6.5" stroke="currentColor" stroke-width="1.5"/>
+          </svg>
+          muhammadjufriramadhan233@email.com
+        </a>
+      </div>
+
+      <a href="mailto:jufriramadhan@email.com" class="contact-cta reveal reveal-delay-2">
+        Kirim Pesan
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+          <path d="M3 8h10M8 3l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p> 2026 <span>Muhamad Jufri Ramadhan</span></p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
